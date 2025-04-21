@@ -1,1 +1,1 @@
-console.log('LUMIN AI ativado.')
+console.log('LUMIN AI World ativado');
