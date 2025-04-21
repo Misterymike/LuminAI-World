@@ -1,0 +1,45 @@
+
+body {
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.menu button, .lang button, .chatbox button {
+  margin: 10px;
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00c6ff;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.menu button:hover, .lang button:hover, .chatbox button:hover {
+  background-color: #0072ff;
+}
+
+.chatbox {
+  margin-top: 20px;
+}
+
+.chatbox input {
+  padding: 10px;
+  width: 60%;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
